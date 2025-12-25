@@ -1,117 +1,39 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Quickstart"
+description: "Welcome! This Quickstart guide will walk you through the essential steps to get up and running as quickly as possible. Whether you're just exploring or ready to integrate this into your workflow, this section will help you go from zero to working in minutes"
 ---
 
-## Setting up
+## 1. Install the Tool
 
-Get your documentation site up;pokipoi and running in minutes.
-
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
-
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={4}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.jhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-  </Card>
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
-  </Card>
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
-  </Card>
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
-
-<Card title="New Card" icon="sparkles">
-  
-</Card>
-
-<Card title="New Card" icon="sparkles">
-  jfljsjflsbelfbelsjfsee
-</Card>
-
-| |
-| --- |
-| |
-| |
-| |
-| |
-| |
-| |
-| |
-
-## 
-
-# lknflnd
-
-<Card title="New Card" icon="sparkles">
-  
-</Card>
+First, make sure you have the required dependencies installed (such as Node.js, Python, etc.—depending on your environment). Then, install the tool using your preferred package manager:
 
 <CodeGroup>
 
-```filename
-// add code here
+``` filename
+import { Geist } from 'next/font/google'
+ 
+const geist = Geist({
+  subsets: ['latin'],
+})
+ 
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={geist.className}>
+      <body>{children}</body>
+    </html>
+  )
+}
 ```
 
 </CodeGroup>
 
-<Columns cols={2}>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-  <Card title="New Card" icon="sparkles">
-    
-  </Card>
-</Columns>
+## 2. Initialize Your Project
+
+Run the initialization command to generate the default project structure. This sets up the core configuration files and folders so you can get started immediately with minimal setup.
+
+Once initialized, you can run your first build, generation, or execution command. If everything is configured correctly, the output should appear in your terminal or in the designated folder.
+
+Once you’re up and running, you can explore more advanced topics. These may include creating reusable components, setting up custom 
+
+| |
+| --- |
