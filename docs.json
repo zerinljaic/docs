@@ -37,12 +37,19 @@
                   {
                     "group": "cnfng",
                     "pages": [
+                      "guides/getting-started/ehdthte/cnfng/jbhk4",
                       {
                         "group": "gnncgnc",
                         "pages": [
+                          "guides/getting-started/ehdthte/cnfng/gnncgnc/iygj",
                           {
                             "group": "gnngng",
-                            "pages": []
+                            "pages": [
+                              {
+                                "group": "Untitled Group",
+                                "pages": []
+                              }
+                            ]
                           }
                         ]
                       }
