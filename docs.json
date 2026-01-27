@@ -23,17 +23,22 @@
         }
       ]
     },
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Test",
-        "pages": [
-          "test/untitled-page-3",
-          "test/untitled-page-2",
-          "test/untitled-page-1",
-          "test/untitled-page",
-          "test/test-3",
-          "test/test-2",
-          "test/test-1"
+        "dropdown": "Untitled Dropdown",
+        "tabs": [
+          {
+            "tab": "Test",
+            "pages": [
+              "test/untitled-page-3",
+              "test/untitled-page-2",
+              "test/untitled-page-1",
+              "test/untitled-page",
+              "test/test-3",
+              "test/test-2",
+              "test/test-1"
+            ]
+          }
         ]
       }
     ]
