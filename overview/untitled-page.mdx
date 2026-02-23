@@ -2,3 +2,26 @@
 title: "Introduction"
 description: "Start building awesome documentation in minutes"
 ---
+
+<CodeGroup>
+
+```javascript name expandable lines wrap
+animateLayout(() => {
+  container.innerHTML = expandedView
+  // Add expanded version to modal container
+  const modalContainer = document.querySelector(".modal-container")
+  modalContainer.innerHTML = `
+    <div data-layout-id="card-1" class="modal">
+      <h3>Card Title</h3>
+      <p>Expanded content...</p>
+    </div>
+  `
+}) 
+```
+
+
+```file name
+// add code here
+```
+
+</CodeGroup>
