@@ -7,14 +7,21 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Sections",
         "pages": [
           "overview/untitled-page",
-          "sections/untitled-page"
+          "sections/untitled-page",
+          {
+            "group": "Untitled Group",
+            "pages": []
+          }
         ]
       }
     ]
