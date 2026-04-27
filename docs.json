@@ -12,15 +12,44 @@
     "dark": "/favicon.svg"
   },
   "navigation": {
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Sections",
-        "pages": [
-          "overview/untitled-page",
-          "sections/untitled-page",
+        "anchor": "Untitled Anchor",
+        "tabs": [
           {
-            "group": "Untitled Group",
-            "pages": []
+            "tab": "Sections",
+            "pages": [
+              "overview/untitled-page",
+              "sections/untitled-page",
+              {
+                "group": "Untitled Group",
+                "pages": [
+                  {
+                    "group": "gsg",
+                    "pages": [
+                      {
+                        "group": "grgrgrg",
+                        "pages": [
+                          {
+                            "group": "dgdgdgdggd",
+                            "pages": [
+                              {
+                                "group": "gdewfegeg",
+                                "pages": [
+                                  "gegegege"
+                                ]
+                              }
+                            ]
+                          },
+                          "gegeg",
+                          "gegege"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
